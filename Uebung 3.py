@@ -70,4 +70,4 @@ print(d.__str__())
 
 z = Rechteck(4,5,6,7)
 
-print(z.__str__())
+print(z.__str__()
