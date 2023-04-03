@@ -76,12 +76,3 @@ class Polygon(Figur):
         return umfang
 
 
-d =  Kreis(Punkt(2,3), 5, 8)
-
-print(d.Umfang())
-print(d.__str__())
-
-#salami = Polygon(Punkt(3,4), Punkt(5,6))
-#umfang = salami.Umfang()
-
-#print(umfang)
