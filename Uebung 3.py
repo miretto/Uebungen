@@ -85,6 +85,3 @@ print(d.__str__())
 #umfang = salami.Umfang()
 
 #print(umfang)
-
-
-
