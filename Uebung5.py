@@ -88,9 +88,9 @@ class Fenster(QMainWindow):
         self.close()
 
     def load(self):
-                                                    #mit Names in mehrzahl gibt es eine liste mit mehreren Dateien zurück
+                                                   
         filename, filter = QFileDialog.getOpenFileName(self, "Datei Öffnen", "", "Text Files (*.txt)")
-                                                                             # der obige Parameter standardmässig leer lassen (aktueller Programmordner wird geöffnet)
+
         file = open(f"{filename}")
         
                                                                              
@@ -123,6 +123,7 @@ class Fenster(QMainWindow):
         file.write(f"{vorname},{name},{geburi},{adresse},{plz},{ort},{land}")
 
         file.close()
+
 
     def maplink(self):
         link = f"https://www.google.ch/maps/place/{self.adresse.text()}+{self.plz.text()}+{self.ort.text()}"
