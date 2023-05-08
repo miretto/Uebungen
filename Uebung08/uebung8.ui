@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1044</width>
+    <height>773</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QFormLayout" name="formLayout">
+        <property name="horizontalSpacing">
+         <number>5</number>
+        </property>
+        <property name="verticalSpacing">
+         <number>11</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QLabel" name="wertebereichMinimumLabel">
+          <property name="text">
+           <string>Wertebereich Minimum</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="min_eingabe"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="wertebereichMaximumLabel">
+          <property name="text">
+           <string>Wertebereich Maximum</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="max_eingabe"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="anzahlDargestellterPunkteLabel">
+          <property name="text">
+           <string>Anzahl dargestellter Punkte</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="anz_pkte_eingabe"/>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="eingabeKoeffizientenLabel">
+          <property name="text">
+           <string>Eingabe Koeffizienten</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="koeff_eingabe"/>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="farbeDesGraphsLabel">
+          <property name="text">
+           <string>Farbe des Graphs</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QComboBox" name="farbe_eingabe"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="plot_button">
+        <property name="text">
+         <string>Plot</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1044</width>
+     <height>38</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
